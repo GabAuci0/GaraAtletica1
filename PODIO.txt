@@ -1,0 +1,17 @@
+1) Numero: 3 - Gabriele Auci | Tempo = 9,10 s
+2) Numero: 2 - Aureliano Pizzoli | Tempo = 9,14 s
+3) Numero: 15 - Alessandro Reliini | Tempo = 9,11 s
+4) Numero: 14 - Michael Tifi | Tempo = 9,11 s
+5) Numero: 11 - Giacomo Rubeca | Tempo = 9,10 s
+6) Numero: 8 - Daivd Lepiki | Tempo = 10,11 s
+7) Numero: 10 - Rami kini | Tempo = 10,11 s
+8) Numero: 5 - Chadi Kini | Tempo = 10,14 s
+9) Numero: 12 - Alessandro Volpi | Tempo = 11,11 s
+10) Numero: 0 - Nicola Capocci | Tempo = 11,16 s
+11) Numero: 16 - Michele Versiglioni | Tempo = 11,13 s
+12) Numero: 6 - Francesco Chionchio | Tempo = 11,14 s
+13) Numero: 7 - Federico Betti | Tempo = 11,13 s
+14) Numero: 4 - Danil Sposini | Tempo = 12,15 s
+15) Numero: 13 - Alessandro Onofri | Tempo = 12,14 s
+16) Numero: 1 - Alessandro Cutini | Tempo = 12,17 s
+17) Numero: 9 - Tommaso Orsini | Tempo = 17,16 s

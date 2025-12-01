@@ -18,9 +18,9 @@ static GestioneFile IO = new GestioneFile();
 
 
     synchronized public static void finito(Atleta a) {
-        System.out.println(a.nome + " a finito");
-        System.out.println(Podio.size() + "|" + Atleti.size());
+        System.out.println(a.nome + " ha finito");
         Podio.add(a);
+        System.out.println(Podio.size ()  + "|" + Atleti.size());
         if (Podio.size() == Atleti.size()) Giudice.GaraFinita();
     }
 
@@ -30,6 +30,8 @@ static GestioneFile IO = new GestioneFile();
         System.out.println("Primo classificato, Grande!: " + Podio.get(0).nome);
         System.out.println("Secondo classificato, Ritenta e sarai più fortunato!: " + Podio.get(1).nome);
         System.out.println("Terzo classificato, Cambia sport!!!!: " + Podio.get(2).nome);
+
+        IO.salvaPodioSuFile(Podio, "PODIO.txt");
     }
 
 

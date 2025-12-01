@@ -19,6 +19,7 @@ public class Atleta implements Runnable {
 
     @Override
     public void run() {
+        long inizio = System.currentTimeMillis(); //"cronometro"
         Random metriPercorsi = new Random();
         while(metri <= LUNGHEZZAGARA) {
             metri += metriPercorsi.nextDouble(10);
@@ -27,6 +28,9 @@ public class Atleta implements Runnable {
             catch (InterruptedException e) { System.err.println("Errore sleep"); }
         }
 
+        long fine = System.currentTimeMillis(); //"stop cronometro"
+
+        tempo = (fine - inizio) / 1000.0;
 
         Giudice.finito(this);
     }
