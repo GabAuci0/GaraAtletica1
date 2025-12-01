@@ -1,0 +1,7 @@
+Questo progetto simula una gara di atletica usando i thread. Gli atleti vengono caricati dal file ELENCO_ATLETI.txt e ognuno corre in modo indipendente, avanzando di qualche metro ogni secondo. Quando un atleta termina la distanza prevista, viene aggiunto al podio in base all’ordine di arrivo. Alla fine della gara vengono mostrati i primi tre classificati e viene generato il file PODIO.txt con la classifica completa.
+La classe IniziaGara si occupa semplicemente di far partire tutto, richiamando il metodo che avvia la corsa.
+La classe Giudice gestisce l’intera gara: contiene la lista degli atleti, il podio e il metodo finito(), che viene chiamato da ogni atleta quando termina. Qui viene controllato anche quando tutti hanno finito, così da concludere ufficialmente la gara. Il metodo GaraFinita() stampa i primi tre classificati e salva il podio nel file.
+La classe Atleta, che implementa Runnable, descrive il comportamento del corridore. Dentro il metodo run() viene simulata la corsa metro per metro e viene misurato il tempo impiegato usando due timestamp.
+Infine la classe GestioneFile gestisce la lettura degli atleti da file e il salvataggio del podio. Il metodo ELENCO_ATLETICA() crea tutti gli atleti leggendo il file, mentre salvaPodioSuFile() crea o sovrascrive il file PODIO.txt scrivendo la classifica finale.
+
+Per avviare la gara basta eseguire la classe IniziaGara. Al termine dell’esecuzione è possibile vedere la classifica completa nel file PODIO.txt.
